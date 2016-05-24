@@ -58,7 +58,7 @@ common_flavor_info = {
         'rxtx_factor': {'type': 'number'},
         'OS-FLV-EXT-DATA:ephemeral': {'type': 'integer'}
     },
-    'additionalProperties': False,
+    'additionalProperties': True,
     # 'OS-FLV-DISABLED', 'os-flavor-access', 'rxtx_factor' and
     # 'OS-FLV-EXT-DATA' are API extensions. So they are not 'required'.
     'required': ['name', 'links', 'ram', 'vcpus', 'swap', 'disk', 'id']

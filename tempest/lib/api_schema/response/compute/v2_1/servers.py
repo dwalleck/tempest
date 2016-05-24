@@ -129,7 +129,7 @@ common_show_server = {
         'accessIPv4': parameter_types.access_ip_v4,
         'accessIPv6': parameter_types.access_ip_v6
     },
-    'additionalProperties': False,
+    'additionalProperties': True,
     # NOTE(GMann): 'progress' attribute is present in the response
     # only when server's status is one of the progress statuses
     # ("ACTIVE","BUILD", "REBUILD", "RESIZE","VERIFY_RESIZE")
